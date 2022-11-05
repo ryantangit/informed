@@ -3,11 +3,10 @@ import React from 'react'
 function Panel(props){
     
     return (
-        <div class = "panel">
+		<li>
             <a href = {props.url} target="_blank" rel="noopener noreferrer"> {props.name} </a>
             <p>{props.content}</p>
-        </div>
-        
+      	</li> 
         
     )
 }

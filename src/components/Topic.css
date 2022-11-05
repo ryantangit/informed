@@ -1,0 +1,13 @@
+ul.panelMenu {
+	background-color: yellowgreen;
+	display: flex;
+	justify-content: center;
+}
+
+ul.panelMenu li {
+	margin: 1%;
+}
+
+h3 {
+	margin: 1%;
+}
